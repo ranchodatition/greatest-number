@@ -1,0 +1,9 @@
+n=int(input("Enter 4 digit no"))
+a=n%10
+b=n//10
+c=b%10
+d=b//10
+e=d%10
+f=d//10
+s=a+c+e+f
+print('sum of digit=',s)
